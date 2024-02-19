@@ -1,0 +1,9 @@
+tests 1
+
+parent("petr_a", Who).
+parent("mikhail_f", Who).
+parent("ekaterina_a", Who).
+
+tests 2
+parent("petr_a", Who).
+parent(Who, "petr_a")
